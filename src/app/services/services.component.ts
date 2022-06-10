@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import * as contextData from 'src/app/json-data/context.json'
 
 @Component({
   selector: 'app-services',
@@ -6,6 +7,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./services.component.scss']
 })
 export class ServicesComponent implements OnInit {
+  messages = contextData;
+
   @Input() security: any;
   @Input() housekeeping: any;
   @Input() manpower: any;

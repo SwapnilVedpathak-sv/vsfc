@@ -11,13 +11,48 @@
         </div>
     </div>
 
-    <div class="container d-none d-sm-block">
+    <div>
+        <div class="d-none d-sm-block py-3 mb-5">
+            <div class="card-deck d-flex justify-content-evenly">
+                <div class="card col-3">
+                    <img class="card-img-top" src="./../../../assets/categories_housekeeping.webp"
+                        style="height: auto; width: auto;" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">
+                            {{messages.homepage.categories.card_deatils.house_keeping.card_title}}</h2>
+                        <p class="card-text">{{messages.homepage.categories.card_deatils.house_keeping.card_des}}
+                        </p>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img class="card-img-top" src="./../../../assets/categories_security.jpg"
+                        style="height: auto; width: auto;" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">{{messages.homepage.categories.card_deatils.security.card_title}}
+                        </h2>
+                        <p class="card-text">{{messages.homepage.categories.card_deatils.security.card_des}}</p>
+                    </div>
+                </div>
+                <div class="card col-3">
+                    <img class="card-img-top" src="./../../../assets/manpower.jpg" style="height: auto; width: auto;"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">{{messages.homepage.categories.card_deatils.manpower.card_title}}
+                        </h2>
+                        <p class="card-text">{{messages.homepage.categories.card_deatils.manpower.card_des}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-sm-none">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: 2rem 0rem;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="row" style="flex-wrap: nowrap;overflow: auto;">
-                        <div class="card-deck d-flex justify-content-around">
-                            <div class="card col-3" *ngFor="let banner of data.card_deatils; let idx=index;">
+                        <div class="card-deck d-flex">
+                            <div class="card col-10" *ngFor="let banner of data.card_deatils; let idx=index;">
                                 <img class="card-img-top" [src]="banner.imgLink" style="width: 21rem; height: 13rem;"
                                     alt="Card image cap">
                                 <div class="card-body">
@@ -33,32 +68,4 @@
             </div>
         </div>
     </div>
-
-    <!-- <div class="our-instructors p-sm-5 d-sm-none">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 p-3 text-center">
-                    <h2 class="banner-title-red medium-txt" style="white-space: normal;">
-                        {{data?.header}}<span class="colorBlack"></span>
-                    </h2>
-
-                </div>
-            </div>
-        </div>
-        <div class="container d-sm-none">
-            <div class="mbl-flex d-sm-none">
-                <div class="box py-3 pb-5">
-                    <div class="col" *ngFor="let banner of data.card_deatils; let idx=index;">
-                        <img src="{{banner.imgLink}}" style="border: 0px;width: 75vw;height: auto;" alt="Altuni"
-                            class="img-responsive">
-                        <div class="p-2">
-                            <h5 class="mentorName">{{banner.mentorId.firstName}} {{banner.mentorId.lastName}}</h5>
-                            <h6 class="shortDescription">{{banner.mentorId.description}}</h6>
-                            <p>{{banner.mentorId.longDescription}}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div>

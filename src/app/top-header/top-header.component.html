@@ -15,23 +15,22 @@
     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-dark mx-5">
-    <img class="navbar-brand" src="./../../assets/vsfc_brand_logo.png" width="138px" height="118px"
-        alt="VSFC Brand Logo">
-    <span style="font-size:30px;cursor:pointer" (click)="openNav()">&#9776;</span>
+<nav class="navbar navbar-expand-lg navbar-dark mx-5 d-flex justify-content-between">
+    <img class="navbar-brand" routerLink="/" style="cursor:pointer" src="./../../assets/vsfc_brand_logo.png"
+        width="138px" height="118px" alt="VSFC Brand Logo">
+    <span style="cursor:pointer" (click)="openNav()"><i class="fa fa-bars" style="font-size:2.5rem;color:black"></i>
+    </span>
 
     <div #vsfcNavbar class="sidenav" [ngStyle]="{'width': width250 == false ? '0' : '250px' }">
-        <a href="javascript:void(0)" class="closebtn" (click)="openNav()">&times;</a>
-        <a href="#">About</a>
-        <a href="#" class="service">Services
-            <i class="fa fa-caret-down"></i></a>
-        <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-        </div>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+        <a class="closebtn" (click)="openNav()">&times;</a>
+        <a routerLink="/">Home</a>
+        <a routerLink="/services">All Services</a>
+        <a routerLink="/security">Security</a>
+        <a routerLink="/housekeeping">HouseKeeping</a>
+        <a routerLink="/manpower">Manpower</a>
+
+        <!-- <a href="#">About</a>
+        <a href="#">Contact</a> -->
     </div>
 
 
