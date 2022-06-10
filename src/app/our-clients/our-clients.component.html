@@ -1,0 +1,61 @@
+<!-- Partner Section -->
+
+<div class="section-6.1 py-4 py-sm-0" style="background-color: #fff;">
+    <div class=" d-none d-sm-block">
+        <div *ngIf="messages.homepage.our_clients.partners_list.length > 5 ? true : false" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center header pt-4">
+                        {{messages.homepage.our_clients.header}}
+                    </h1>
+                    <div class="borderBottomYellow"></div>
+                </div>
+            </div>
+            <div class="Marquee mb-4">
+                <div class="Marquee-content">
+                    <div *ngFor="let brand of messages.homepage.our_clients.partners_list; let idx=index;">
+                        <div class="Marquee-tag"><img class="img-fluid" [src]="brand.imgLink" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" d-none d-sm-block">
+        <div *ngIf="messages.homepage.our_clients.partners_list.length < 5 ? true : false" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center header pt-4">
+                        {{messages.homepage.our_clients.header}}
+                    </h1>
+                    <div class="borderBottomYellow"></div>
+                </div>
+            </div>
+            <div class="Marquee mt-4 mb-4">
+                <div class="Marquee-content scrollMarquee">
+                    <div *ngFor="let brand of messages.homepage.our_clients.partners_list; let idx=index;">
+                        <div class="Marquee-tag"><img class="img-fluid" [src]="brand.imgLink" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-center header pt-4">
+                        {{messages.homepage.our_clients.header}}
+                    </h1>
+                    <div class="borderBottomYellow"></div>
+                </div>
+            </div>
+            <div class="Marquee mt-4 mb-4">
+                <div class="Marquee-content">
+                    <div *ngFor="let brand of messages.homepage.our_clients.partners_list; let idx=index;">
+                        <div class="Marquee-tag"><img class="img-fluid" [src]="brand.imgLink" /></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

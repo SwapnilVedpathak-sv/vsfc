@@ -1,0 +1,64 @@
+<div class="section-5-1">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 pt-5 text-center">
+                <h2 class="medium-txt colorRed">{{data.header}}</h2>
+                <h6 class="content-medium marginTopColorBllack">
+                    {{data?.description}}
+                </h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-none d-sm-block">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin: 2rem 0rem;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row" style="flex-wrap: nowrap;overflow: auto;">
+                        <div class="card-deck d-flex justify-content-around">
+                            <div class="card col-3" *ngFor="let banner of data.card_deatils; let idx=index;">
+                                <img class="card-img-top" [src]="banner.imgLink" style="width: 21rem; height: 13rem;"
+                                    alt="Card image cap">
+                                <div class="card-body">
+                                    <h2 class="card-title">
+                                        {{banner.card_title}}</h2>
+                                    <p class="card-text">{{banner.card_des}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="our-instructors p-sm-5 d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 p-3 text-center">
+                    <h2 class="banner-title-red medium-txt" style="white-space: normal;">
+                        {{data?.header}}<span class="colorBlack"></span>
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+        <div class="container d-sm-none">
+            <div class="mbl-flex d-sm-none">
+                <div class="box py-3 pb-5">
+                    <div class="col" *ngFor="let banner of data.card_deatils; let idx=index;">
+                        <img src="{{banner.imgLink}}" style="border: 0px;width: 75vw;height: auto;" alt="Altuni"
+                            class="img-responsive">
+                        <div class="p-2">
+                            <h5 class="mentorName">{{banner.mentorId.firstName}} {{banner.mentorId.lastName}}</h5>
+                            <h6 class="shortDescription">{{banner.mentorId.description}}</h6>
+                            <p>{{banner.mentorId.longDescription}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</div>

@@ -1,0 +1,70 @@
+p {
+    font-family: Lato;
+}
+.example-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.upperNav {
+    background-color: #444444;
+    color: #fcfcfc;
+    padding: 0.5rem 0 0 15rem;
+}
+.header {
+    padding: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.iconStyle {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.nav-link {
+    color: black !important;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: 1rem;
+}
+.nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width 0.3s;
+    color: #ffca28 !important;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+.nav-item {
+    cursor: pointer;
+}
+.ml-10 {
+    margin-left: -10rem;
+}
+.navbar-toggler {
+    background-color: #8f8f8f;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    color: #fff;
+    top: 9rem;
+    margin-left: 2rem;
+    left: 4rem;
+}
+.mainTitle {
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+.pleft {
+    margin-left: 1.2rem;
+}

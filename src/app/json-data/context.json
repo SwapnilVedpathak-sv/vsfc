@@ -1,0 +1,154 @@
+{
+    "homepage": {
+        "categories": {
+            "categories_title": "Most Visited Categories",
+            "categories_description": "We are professionally managed & competent workforce. We provide a wide range of security solutions and services to our clients including.",
+            "card_deatils": {
+                "house_keeping": {
+                    "card_title": "House Keeping",
+                    "card_des": "We Provide A to Z Cleaning Solutions From Simple Residential Cleaning To Hard Core Commercial Cleaning In Pune"
+                },
+                "security": {
+                    "card_title": "Security",
+                    "card_des": "Trained and equipped security guards are placed after all scrutiny to access their mental and physical standards and ability to handle emergencies and contingencies"
+                },
+                "manpower": {
+                    "card_title": "Manpower",
+                    "card_des": "Efficient manpower is the key to success for every organization. We stand for providing impeccable manpower services for our clients within the stipulated time frame"
+                }
+            }
+        },
+        "our_clients": {
+            "header": "Our Clients",
+            "partners_list": [
+                {
+                    "imgLink": "../../../assets/Partners Logo/groffers_logo.png"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/indus_towers.svg"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/kokkita.png"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/lokmanya.webp"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/samrat_swastik.jpg"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/sarthi.webp"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/teak_staffing.png"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/tmb.png"
+                },
+                {
+                    "imgLink": "../../../assets/Partners Logo/Vi_logo.svg"
+                }
+            ]
+        },
+        "footer": {
+            "imgDesc": "For an end- to end solution man power & Independent VSFC work services. We believe in a long term association with our customer. We say what we do & what we said.",
+            "copyright": "Copyrights 2022 - VSFC Services Pvt Ltd. All rights reserved.",
+            "websiteMade": "Website by Code Implants Pvt Ltd.",
+            "branchOneAddress": "Sr. No. 14, Yashwant Nagar, Near Datta Hotel, Chandan Nagar, Kharadi, Pune -14",
+            "branchTwoAddress": "5537/03, Kadam Plaza, Near Varsha Building, Khanapur Road Vita, Tal-Khanapur, Dist- Sangli"
+        },
+        "security_services": {
+            "header": "We Provide Best Security Services",
+            "description": "Our Protection Is Always There 24 Hours",
+            "card_deatils": [
+                {
+                    "imgLink": "../../assets/security/card1.jpg",
+                    "card_title": "Corporate Security",
+                    "card_des": "Being amid the reliable names of the industry, we are affianced in presenting Corporate Security Services. Under the command of our skillful personnel, our provided services are implemented in accordance with industrial guidelines."
+                },
+                {
+                    "imgLink": "../../assets/security/card2.jpg",
+                    "card_title": "Industrial Security",
+                    "card_des": "We are affianced in offering Industrial Security Services. These services are used by our clients for safety of different industries. Patrons can acquire these security services from us at feasible rates."
+                },
+                {
+                    "imgLink": "../../assets/security/card3.jpg",
+                    "card_title": "Commercial Security",
+                    "card_des": "Top Security Services brings you the best and efficient security officers that are trained and well-equipped to guard your place of business."
+                },
+                {
+                    "imgLink": "../../assets/security/card4.png",
+                    "card_title": "Residential Security",
+                    "card_des": "The residential security guards services at TOP Industrial Protection Security Group prove themselves to be vital in the security system of any place regardless of the development of technology."
+                },
+                {
+                    "imgLink": "../../assets/security/card5.png",
+                    "card_title": "Banking Security",
+                    "card_des": "We are rendering Bank Security Guard Services to our patrons. Due to prompt completion, our offered service is extremely admired in the market. Our service meets on client’s demand. Moreover, we render this service as per patron’s demand."
+                },
+                {
+                    "imgLink": "../../assets/security/card6.jpg",
+                    "card_title": "Hospital Security",
+                    "card_des": "Being one of the distinguished enterprises, we are immersed in offering highly reliable Hospital Security Services to meet the detailed demands of our customers. Provided services are imparted by adroit workers in compilation with the clients’ budget and time desires."
+                }
+            ]
+        },
+        "housekeeping_services": {
+            "header": "Our Best Housekeeping Services",
+            "description": "What We Offer",
+            "card_deatils": [
+                {
+                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "card_title": "Office Cleaning",
+                    "card_des": "Providing a clean office environment is a key component to a modern, effective organisation. Cleanliness is of paramount importance to a company's brand persona and client perception."
+                },
+                {
+                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "card_title": "Industrial Cleaning",
+                    "card_des": " Our industrial cleaning experts create a clean and positive environment for your facility and work around your schedule to help ensure your operation stays productive."
+                },
+                {
+                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "card_title": "Residential Cleaning",
+                    "card_des": "We have experienced and well-trained team of experts, which undertakes the complete cleaning process in an efficient manner. Our professionals are facilitated with latest machinery and high-end equipment"
+                },
+                {
+                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "card_title": "Hospital Cleaning",
+                    "card_des": "Because of risks and fears about disease and the fact that health is so personal, so intimate and so important, patients and consumers expect that the places they go for healthcare service be squeaky clean."
+                }
+            ]
+        },
+        "manpower_services": {
+            "header": "Manpower Supply Services",
+            "description": "We offer several expertise in different areas, including laborers, loaders/unloaders, assembly line workers, laborers for housekeeping work, material handling professionals, and much more.",
+            "card_deatils": [
+                {
+                    "imgLink": "../../assets/manpower/card4.png",
+                    "card_title": "Unskilled Manpower",
+                    "card_des": "We can provide Unskilled manpower to any type of industrie based on the requirements. We can supply the any number of required unskilled labourers to the clients as per their specifications."
+                },
+                {
+                    "imgLink": "../../assets/manpower/card4.png",
+                    "card_title": "Skilled Manpower",
+                    "card_des": "We hold expertise in providing Skilled Workers that fulfill the requirements of clients. These services are rendered by our expert recruiters who are backed by years of industry experience. They make sure that only skilled, talented and experienced professionals are recruited. "
+                },
+                {
+                    "imgLink": "../../assets/manpower/card4.png",
+                    "card_title": "Technical Manpower",
+                    "card_des": "We offer an exclusive range of Manpower Engineering And Technical Consultancy Services which are used for several applications. Our products are highly durable and available in various designs. We offer easy maintenance which results in enhanced demand of the product."
+                },
+                {
+                    "imgLink": "../../assets/manpower/card4.png",
+                    "card_title": "Staff & Labour Manpower",
+                    "card_des": "We also provide Managerial / executives staff to various types of industry. We take the job of hiring professionals for middle & senior level management/ executive’s."
+                },
+                {
+                    "imgLink": "../../assets/manpower/card4.png",
+                    "card_title": "Contract Labour Supply",
+                    "card_des": "Contract Labour supplier refers to the workers who is employed by or through an intermediary generally some Labour Contractors or agency for a specific work and for some finite time."
+                }
+            ]
+        }
+    }
+}
