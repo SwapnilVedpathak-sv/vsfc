@@ -16,6 +16,8 @@ import { TopHeaderComponent } from './top-header/top-header.component';
 import { ServiceCategoriesComponent } from './service-categories/service-categories.component';
 import { SecurityLandingPageComponent } from './security-landing-page/security-landing-page.component';
 import { ServicesComponent } from './services/services.component';
+import { HousekeepingLandingPageComponent } from './housekeeping-landing-page/housekeeping-landing-page.component';
+import { ManpowerLandingPageComponent } from './manpower-landing-page/manpower-landing-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { ServicesComponent } from './services/services.component';
     TopHeaderComponent,
     ServiceCategoriesComponent,
     SecurityLandingPageComponent,
-    ServicesComponent
+    ServicesComponent,
+    HousekeepingLandingPageComponent,
+    ManpowerLandingPageComponent
   ],
   imports: [
     BrowserModule,

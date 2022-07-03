@@ -60,7 +60,7 @@
         "security_services": {
             "header": "We Provide Best Security Services",
             "description": "Our Protection Is Always There 24 Hours",
-            "card_deatils": [
+            "card_deatils1": [
                 {
                     "imgLink": "../../assets/security/card1.jpg",
                     "card_title": "Corporate Security",
@@ -75,7 +75,9 @@
                     "imgLink": "../../assets/security/card3.jpg",
                     "card_title": "Commercial Security",
                     "card_des": "Top Security Services brings you the best and efficient security officers that are trained and well-equipped to guard your place of business."
-                },
+                }
+            ],
+            "card_deatils2": [
                 {
                     "imgLink": "../../assets/security/card4.png",
                     "card_title": "Residential Security",
@@ -96,24 +98,26 @@
         "housekeeping_services": {
             "header": "Our Best Housekeeping Services",
             "description": "What We Offer",
-            "card_deatils": [
+            "card_deatils1": [
                 {
-                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "imgLink": "../../assets/housekeeping/card1.webp",
                     "card_title": "Office Cleaning",
                     "card_des": "Providing a clean office environment is a key component to a modern, effective organisation. Cleanliness is of paramount importance to a company's brand persona and client perception."
                 },
                 {
-                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "imgLink": "../../assets/housekeeping/card2.webp",
                     "card_title": "Industrial Cleaning",
                     "card_des": " Our industrial cleaning experts create a clean and positive environment for your facility and work around your schedule to help ensure your operation stays productive."
-                },
+                }
+            ],
+            "card_deatils2": [
                 {
-                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "imgLink": "../../assets/housekeeping/card3.webp",
                     "card_title": "Residential Cleaning",
                     "card_des": "We have experienced and well-trained team of experts, which undertakes the complete cleaning process in an efficient manner. Our professionals are facilitated with latest machinery and high-end equipment"
                 },
                 {
-                    "imgLink": "../../assets/housekeeping/card4.png",
+                    "imgLink": "../../assets/housekeeping/card4.webp",
                     "card_title": "Hospital Cleaning",
                     "card_des": "Because of risks and fears about disease and the fact that health is so personal, so intimate and so important, patients and consumers expect that the places they go for healthcare service be squeaky clean."
                 }
@@ -122,29 +126,31 @@
         "manpower_services": {
             "header": "Manpower Supply Services",
             "description": "We offer several expertise in different areas, including laborers, loaders/unloaders, assembly line workers, laborers for housekeeping work, material handling professionals, and much more.",
-            "card_deatils": [
+            "card_deatils1": [
                 {
-                    "imgLink": "../../assets/manpower/card4.png",
+                    "imgLink": "../../assets/manpower/card1.jpg",
                     "card_title": "Unskilled Manpower",
                     "card_des": "We can provide Unskilled manpower to any type of industrie based on the requirements. We can supply the any number of required unskilled labourers to the clients as per their specifications."
                 },
                 {
-                    "imgLink": "../../assets/manpower/card4.png",
+                    "imgLink": "../../assets/manpower/card2.png",
                     "card_title": "Skilled Manpower",
                     "card_des": "We hold expertise in providing Skilled Workers that fulfill the requirements of clients. These services are rendered by our expert recruiters who are backed by years of industry experience. They make sure that only skilled, talented and experienced professionals are recruited. "
                 },
                 {
-                    "imgLink": "../../assets/manpower/card4.png",
+                    "imgLink": "../../assets/manpower/card3.jpg",
                     "card_title": "Technical Manpower",
                     "card_des": "We offer an exclusive range of Manpower Engineering And Technical Consultancy Services which are used for several applications. Our products are highly durable and available in various designs. We offer easy maintenance which results in enhanced demand of the product."
-                },
+                }
+            ],
+            "card_deatils2": [
                 {
-                    "imgLink": "../../assets/manpower/card4.png",
+                    "imgLink": "../../assets/manpower/card4.jpg",
                     "card_title": "Staff & Labour Manpower",
                     "card_des": "We also provide Managerial / executives staff to various types of industry. We take the job of hiring professionals for middle & senior level management/ executive’s."
                 },
                 {
-                    "imgLink": "../../assets/manpower/card4.png",
+                    "imgLink": "../../assets/manpower/card5.jpg",
                     "card_title": "Contract Labour Supply",
                     "card_des": "Contract Labour supplier refers to the workers who is employed by or through an intermediary generally some Labour Contractors or agency for a specific work and for some finite time."
                 }

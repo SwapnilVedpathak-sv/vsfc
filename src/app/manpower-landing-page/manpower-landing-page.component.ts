@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as contextData from 'src/app/json-data/context.json'
 
 @Component({
   selector: 'app-manpower-landing-page',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./manpower-landing-page.component.scss']
 })
 export class ManpowerLandingPageComponent implements OnInit {
+  messages = contextData;
 
   constructor() { }
 

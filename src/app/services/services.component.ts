@@ -8,6 +8,7 @@ import * as contextData from 'src/app/json-data/context.json'
 })
 export class ServicesComponent implements OnInit {
   messages = contextData;
+  arrayForMobile: any = []
 
   @Input() security: any;
   @Input() housekeeping: any;
@@ -20,11 +21,19 @@ export class ServicesComponent implements OnInit {
     console.log("Security", this.security)
     if (this.security) {
       this.data = this.security
+      console.log("Security data", this.data)
     } else if (this.housekeeping) {
       this.data = this.housekeeping
     } else {
       this.data = this.manpower
     }
-  }
 
+    this.data.card_deatils1.forEach((ele: any) => {
+      this.arrayForMobile.push(ele)
+    });
+
+    this.data.card_deatils2.forEach((ele: any) => {
+      this.arrayForMobile.push(ele)
+    });
+  }
 }

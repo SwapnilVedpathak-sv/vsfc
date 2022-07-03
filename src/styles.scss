@@ -10,5 +10,11 @@ body {
 .card {
     border: none !important;
 }
+.borderBottomYellow {
+    border-bottom: 0.2rem solid #ffca28;
+    width: 8rem;
+    margin-left: 45%;
+    margin-top: 2rem;
+}
 
 @import "~bootstrap/scss/bootstrap";
